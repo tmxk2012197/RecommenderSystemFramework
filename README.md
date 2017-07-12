@@ -19,7 +19,7 @@ Data comes from the training dataset of Netflix Prize Challenge.
 
 * $hadoop com.sun.tools.javac.Main *.java
 * $jar cf recommender.jar *.class
-* $hadoop jar recommender.jar Driver /input /dataDividedByUser /coOccurrenceMatrix /Normalize /Multiplication /Sum /RecommanderList
+* $hadoop jar recommender.jar Driver /input /dataDividedByUser /coOccurrenceMatrixGenerator /Normalize /Multiplication /Sum /RecommanderList
 ```
 * args0: original dataset
 * args1: output directory for DividerByUser job
