@@ -23,7 +23,7 @@ Data comes from the training dataset of Netflix Prize Challenge.
 ```
 * args0: original dataset
 * args1: output directory for DividerByUser job
-* args2: output directory for coOccurrenceMatrix job
+* args2: output directory for coOccurrenceMatrixGenerator job
 * args3: output directory for Normalize job
 * args4: output directory for Multiplication job
 * args5: output directory for Sum job
